@@ -22,9 +22,7 @@
     <title>Neighborhood Map - React</title>
   </head>
   <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
+   
     <section id="root"></section>
     <!--
       This HTML file is a template.
@@ -36,5 +34,18 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="./src/index.js"></script>
+    <script src="./src/registerServiceWorker.js"></script>
+    <script src="./src/components/App.js"></script>
+    <script src="./src/components/LocationItem.js"></script>
+    <script src="./src/components/LocationList.js"></script>
+    
+    <script async defer
+      	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBweTPnfB_UJXQCx5nXovAJmf26jXsz8f4&callback=initMap"
+            onerror="errorLoadingMap()">
+            window.gm_authFailure = () => {
+  console.log("error in loading");
+};
+</script>
   </body>
 </html>
