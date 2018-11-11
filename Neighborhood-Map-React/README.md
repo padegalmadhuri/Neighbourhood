@@ -27,8 +27,3 @@ A new browser window open automatically displaying the app.  If it doesn't, navi
 
 ***NOTE:*** *The service workers for this app will only cache the site when it is in production mode.*
 
-## How to run the project in Production Mode
-
-1. Build the production ready optimised code. `npm run build`
-2. Deploy it to `gh-pages` branch by `npm run deploy`
-3. Check the online demo [here](https://manishbisht.github.io/Neighborhood-Map-React/)
