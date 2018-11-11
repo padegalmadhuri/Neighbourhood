@@ -3,8 +3,7 @@ A single-page web application, built using the React framework, that displays a 
 
 This application follow this [Udacity Project Rubric](https://review.udacity.com/#!/rubrics/1351/view)
 
-## How to run the project online
-Open the online demo [here](https://manishbisht.github.io/Neighborhood-Map-React/)
+
 
 ## Features
 
